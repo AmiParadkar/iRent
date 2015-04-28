@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FC4E7C22-BB9A-441A-969F-C929B6373A19</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iRent</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F898458469A3E47EADF4AE772810118A5639A05D</key>
+		<string>bitbucket.org:emehta/irent.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/iRent.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F898458469A3E47EADF4AE772810118A5639A05D</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>bitbucket.org:emehta/irent.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F898458469A3E47EADF4AE772810118A5639A05D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F898458469A3E47EADF4AE772810118A5639A05D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iRent</string>
+		</dict>
+	</array>
+</dict>
+</plist>
