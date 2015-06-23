@@ -1,0 +1,21 @@
+{
+  "name": "iRent",
+  "version": "0.0.0",
+  "authors": [
+    "emehta <mehta.ekta@gmail.com>"
+  ],
+  "description": "iRent App",
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0"
+  }
+}

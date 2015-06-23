@@ -1,0 +1,154 @@
+2015-06-22 17:58:23.046 iRent[85291:1063367] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Data/Application/4AA5137F-D7E9-4A6F-8B1A-A49EA5E4FE43/Library/Cookies/Cookies.binarycookies
+2015-06-22 17:58:23.327 iRent[85291:1063367] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-22 17:58:23.328 iRent[85291:1063367] Multi-tasking -> Device: YES, App: YES
+2015-06-22 17:58:23.340 iRent[85291:1063367] Unlimited access to network resources
+2015-06-22 17:58:23.345 iRent[85291:1063367] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-22 17:58:24.382 iRent[85291:1063367] Resetting plugins due to page load.
+2015-06-22 17:58:24.537 iRent[85291:1063367] Finished load of: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Bundle/Application/B59633FF-7557-41C7-90BA-5F1B8BE64DB8/iRent.app/www/index.html
+2015-06-22 17:58:34.177 iRent[85363:1063748] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Data/Application/98E924FD-1242-4540-9330-B9AD53285E61/Library/Cookies/Cookies.binarycookies
+2015-06-22 17:58:34.311 iRent[85363:1063748] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-22 17:58:34.311 iRent[85363:1063748] Multi-tasking -> Device: YES, App: YES
+2015-06-22 17:58:34.313 iRent[85363:1063748] Unlimited access to network resources
+2015-06-22 17:58:34.315 iRent[85363:1063748] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-22 17:58:34.586 iRent[85363:1063748] Resetting plugins due to page load.
+2015-06-22 17:58:34.662 iRent[85363:1063748] Finished load of: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Bundle/Application/0973D4FD-3523-40EC-9331-AC0ED3E56AB5/iRent.app/www/index.html
+2015-06-22 20:56:57.815 iRent[7741:79043] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Data/Application/B7FE40F4-4D01-4D85-B009-188F5C73DA67/Library/Cookies/Cookies.binarycookies
+2015-06-22 20:56:58.007 iRent[7741:79043] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-22 20:56:58.008 iRent[7741:79043] Multi-tasking -> Device: YES, App: YES
+2015-06-22 20:56:58.017 iRent[7741:79043] Unlimited access to network resources
+2015-06-22 20:56:58.022 iRent[7741:79043] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-22 20:56:58.525 iRent[7741:79043] Resetting plugins due to page load.
+2015-06-22 20:56:58.640 iRent[7741:79043] Finished load of: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Bundle/Application/F7BDE319-B602-4A47-908A-F9E4383427D8/iRent.app/www/index.html
+2015-06-22 20:57:13.020 iRent[8122:79798] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Data/Application/434A7AEC-1D13-46C7-B821-24853F7DEBB1/Library/Cookies/Cookies.binarycookies
+2015-06-22 20:57:13.182 iRent[8122:79798] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-22 20:57:13.183 iRent[8122:79798] Multi-tasking -> Device: YES, App: YES
+2015-06-22 20:57:13.184 iRent[8122:79798] Unlimited access to network resources
+2015-06-22 20:57:13.186 iRent[8122:79798] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-22 20:57:13.495 iRent[8122:79798] Resetting plugins due to page load.
+2015-06-22 20:57:13.555 iRent[8122:79798] Finished load of: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Bundle/Application/05551D9B-4B51-466F-B4D7-FA05A21AF812/iRent.app/www/index.html
+2015-06-22 20:59:20.029 iRent[8414:81568] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Data/Application/3F465FEF-37A7-449E-AF9E-0468A7E949C5/Library/Cookies/Cookies.binarycookies
+2015-06-22 20:59:20.147 iRent[8414:81568] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-22 20:59:20.147 iRent[8414:81568] Multi-tasking -> Device: YES, App: YES
+2015-06-22 20:59:20.148 iRent[8414:81568] Unlimited access to network resources
+2015-06-22 20:59:20.150 iRent[8414:81568] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-22 20:59:20.453 iRent[8414:81568] Resetting plugins due to page load.
+2015-06-22 20:59:20.520 iRent[8414:81568] Finished load of: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Bundle/Application/D80E58C1-FE2F-4BDE-BB15-C26EC8BA0345/iRent.app/www/index.html
+2015-06-22 21:01:17.229 iRent[8549:83350] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Data/Application/798C99D0-7028-4D8E-BBF7-DEA17DD6CC92/Library/Cookies/Cookies.binarycookies
+2015-06-22 21:01:17.351 iRent[8549:83350] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-22 21:01:17.351 iRent[8549:83350] Multi-tasking -> Device: YES, App: YES
+2015-06-22 21:01:17.352 iRent[8549:83350] Unlimited access to network resources
+2015-06-22 21:01:17.354 iRent[8549:83350] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-22 21:01:17.633 iRent[8549:83350] Resetting plugins due to page load.
+2015-06-22 21:01:17.710 iRent[8549:83350] Finished load of: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Bundle/Application/DDA7589C-8181-4A32-BC22-26F922B601E3/iRent.app/www/index.html
+2015-06-22 21:03:31.598 iRent[8645:84700] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Data/Application/A40551FF-8606-4E4B-9B1C-0393381F6044/Library/Cookies/Cookies.binarycookies
+2015-06-22 21:03:31.717 iRent[8645:84700] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-22 21:03:31.717 iRent[8645:84700] Multi-tasking -> Device: YES, App: YES
+2015-06-22 21:03:31.719 iRent[8645:84700] Unlimited access to network resources
+2015-06-22 21:03:31.721 iRent[8645:84700] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-22 21:03:32.037 iRent[8645:84700] Resetting plugins due to page load.
+2015-06-22 21:03:32.098 iRent[8645:84700] Finished load of: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Bundle/Application/36ABD5D5-182D-4775-9F30-D414D596B796/iRent.app/www/index.html
+2015-06-22 21:04:19.263 iRent[8714:85414] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Data/Application/D6EC1D89-4CEB-425B-A358-C0FD3F94E81F/Library/Cookies/Cookies.binarycookies
+2015-06-22 21:04:19.395 iRent[8714:85414] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-22 21:04:19.396 iRent[8714:85414] Multi-tasking -> Device: YES, App: YES
+2015-06-22 21:04:19.397 iRent[8714:85414] Unlimited access to network resources
+2015-06-22 21:04:19.399 iRent[8714:85414] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-22 21:04:19.675 iRent[8714:85414] Resetting plugins due to page load.
+2015-06-22 21:04:19.741 iRent[8714:85414] Finished load of: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Bundle/Application/91ABB010-9749-44D7-B74A-FC0BC4612425/iRent.app/www/index.html
+2015-06-22 21:05:33.114 iRent[8793:86319] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Data/Application/6813BBDA-ACE7-4930-B3B9-0E1E63AE5E5F/Library/Cookies/Cookies.binarycookies
+2015-06-22 21:05:33.214 iRent[8793:86319] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-22 21:05:33.215 iRent[8793:86319] Multi-tasking -> Device: YES, App: YES
+2015-06-22 21:05:33.216 iRent[8793:86319] Unlimited access to network resources
+2015-06-22 21:05:33.218 iRent[8793:86319] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-22 21:05:33.612 iRent[8793:86319] Resetting plugins due to page load.
+2015-06-22 21:05:33.675 iRent[8793:86319] Finished load of: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Bundle/Application/D861C3B3-3F00-4B44-926F-3C915EF011E2/iRent.app/www/index.html
+2015-06-22 21:12:35.908 iRent[8943:89030] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Data/Application/8AF43A69-D7E1-482C-B989-723CAD5EF583/Library/Cookies/Cookies.binarycookies
+2015-06-22 21:12:36.018 iRent[8943:89030] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-22 21:12:36.019 iRent[8943:89030] Multi-tasking -> Device: YES, App: YES
+2015-06-22 21:12:36.020 iRent[8943:89030] Unlimited access to network resources
+2015-06-22 21:12:36.022 iRent[8943:89030] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-22 21:12:36.343 iRent[8943:89030] Resetting plugins due to page load.
+2015-06-22 21:12:36.399 iRent[8943:89030] Finished load of: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Bundle/Application/D1EC856D-B963-44ED-B914-77F0A7961FF8/iRent.app/www/index.html
+2015-06-22 21:15:00.793 iRent[9038:90502] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Data/Application/67C1E57D-67EC-4700-8357-37C165A85723/Library/Cookies/Cookies.binarycookies
+2015-06-22 21:15:00.909 iRent[9038:90502] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-22 21:15:00.909 iRent[9038:90502] Multi-tasking -> Device: YES, App: YES
+2015-06-22 21:15:00.910 iRent[9038:90502] Unlimited access to network resources
+2015-06-22 21:15:00.912 iRent[9038:90502] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-22 21:15:01.229 iRent[9038:90502] Resetting plugins due to page load.
+2015-06-22 21:15:01.291 iRent[9038:90502] Finished load of: file:///Users/emehta/Library/Developer/CoreSimulator/Devices/8454085E-7B04-4245-8B22-789DAD6FA009/data/Containers/Bundle/Application/82D60360-D6B6-4AED-894F-9F21465134BA/iRent.app/www/index.html

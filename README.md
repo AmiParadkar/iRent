@@ -27,3 +27,33 @@ This README would normally document whatever steps are necessary to get your app
 
 * Repo owner or admin
 * Other community or team contact
+
+
+
+sublime text
+git
+hip chat
+xcode
+NodeJS
+
+
+git - DVC
+https://git-scm.com/book/en/v2
+
+
+phone gap - Native app wrapper
+http://phonegap.com/
+
+angularjs - javascript MVC framework
+https://docs.angularjs.org/guide
+
+http://bower.io/
+
+
+commands
+cordova build
+cordova emulate ios
+
+update ios-sim
+
+sudo npm update ios-sim -g
