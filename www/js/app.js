@@ -57,5 +57,3 @@ angular.module('iRent', ['ngRoute', 'iRent.Controllers'])
     //     }, 1);
     // });
 }]);
-
-console.log('angular', angular);
