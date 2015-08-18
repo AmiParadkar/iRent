@@ -4,7 +4,7 @@ angular.module('iRent.Controllers', [])
   //     $scope.headerText = eventBroadcastService.message.header;
   // });
 	//function Hello($scope, $http) {
-	    $http.get('http://localhost:8080/pix/user/Alice').
+	    $http.get('http://Amis-MacBook-Air.local:8080/pix/user/Alice').
 	        success(function(data) {
 	        	console.log('data&&&&&&&', data)
 	            $scope.user = data;
