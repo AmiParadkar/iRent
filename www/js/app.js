@@ -13,6 +13,10 @@ angular.module('iRent', ['ngRoute', 'iRent.Controllers'])
         templateUrl: 'partials/home.html',
         controller: 'userCtrl'
       }).
+      when('/product', {
+          templateUrl: 'partials/product.html',
+          controller: 'prodCtrl'
+        }).
       otherwise({
         redirectTo: '/'
       });

@@ -17,6 +17,8 @@
  * under the License.
  */
 var iRentApp = {
+		
+	serviceRoot: "http://Amis-MacBook-Air.local:8080",
     // Application Constructor
     initialize: function() {
         this.bindEvents();
