@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README #
 
 This README would normally document whatever steps are necessary to get your application up and running.
@@ -57,3 +58,7 @@ cordova emulate ios
 update ios-sim
 
 sudo npm update ios-sim -g
+=======
+# iRent
+iRent project
+>>>>>>> 79582d079c2bee3dc3d5235a000056e92003b8f8
