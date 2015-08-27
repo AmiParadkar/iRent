@@ -15,9 +15,16 @@ angular.module('iRent.Controllers', [])
 }])
 .controller('prodCtrl', ['$scope', '$rootScope', '$http', function($scope, $rootScope, $http){
 	$scope.serviceRoot = iRentApp.serviceRoot+"/";
-    $http.get(iRentApp.serviceRoot + '/pix/product/Prod1').
-	        success(function(data) {
-	        	console.log('prod Data -&', data)
-	            $scope.prod = data;
+    //$http.get(iRentApp.serviceRoot + '/pix/product/all').
+	//$http.get(iRentApp.serviceRoot + '/pix/product/Prod1').
+		//success(function(data) {
+	console.log("=========="+$scope.serviceRoot)
+	$http.get(iRentApp.serviceRoot + '/pix/product/all').
+	        success(function(response) {
+	        	console.log("=========="+iRentApp.serviceRoot + '/pix/product/all')
+	        	//console.log('prod Data -&', data)
+	            //$scope.prod = data;
+	        	$scope.prods = response;
+	        	console.log("prod size ="+response.length)
 	        })
 }])
