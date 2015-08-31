@@ -2,8 +2,10 @@ angular.module('iRent', ['ngRoute', 'iRent.Controllers'])
 .config(function($routeProvider) {
     $routeProvider.
       when('/', {
-        templateUrl: 'partials/login.html',
-        controller: 'userCtrl'
+        //templateUrl: 'partials/login.html',
+        //controller: 'userCtrl'
+    	  templateUrl: 'partials/product.html',
+          controller: 'prodCtrl'
       }).
       when('/register', {
         templateUrl: 'partials/register.html',
