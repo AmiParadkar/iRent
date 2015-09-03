@@ -1,17 +1,16 @@
-<h1>Product List </h1>
-<div class="row">
-	<div ng-repeat="x in prods">
-		<div class="col-xs-6 col-md-3">
-			<div class="prod-list">
-				<a target="_self" href="#"> <img alt="{{x.prodName}}<br>Price: ${{x.prodPrice}}"
-					src="{{serviceRoot}}{{x.prodImagePath}}">
+<h1>Product List</h1>
+<div class="container">
+	<div class="row">
+		<div ng-repeat="x in prods">
+			<div class="col-xs-6 col-md-4">
+				<a target="_self" href="#" class="img-thumbnail"> <img
+					class="img-responsive"
+					alt="{{x.prodName}}<br>Price: ${{x.prodPrice}}"
+					src="{{serviceRoot}}{{x.prodImagePath}}"> <br>
+					{{x.prodName}}<br>
+					Price: ${{x.prodPrice}}
 				</a>
-				<div class="desc">
-					{{x.prodName}}<br>Price: ${{x.prodPrice}}
-				</div>
 			</div>
 		</div>
-	<div>
-</div>
-  
-
+	</div>
+</div>http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1605088
