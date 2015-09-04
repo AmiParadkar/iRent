@@ -1,5 +1,6 @@
 angular.module('iRent', ['ngRoute', 'iRent.Controllers'])
 .config(function($routeProvider) {
+	console.log('inside app.js');
     $routeProvider.
       when('/', {
         //templateUrl: 'partials/login.html',

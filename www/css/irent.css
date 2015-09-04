@@ -12,7 +12,7 @@ div .prod-list img {
   height: 150px;
   width: 150px;
   border: 1px solid #ffffff;
-  border-radius: 3px;
+  border-radius: 25px;
 }
 div .prod-list a:hover img {
   border: 1px solid #0000ff;
@@ -22,4 +22,12 @@ div .prod-list desc {
   font-weight: normal;
   width: 120px;
   margin: 5px;
+}
+.iRentLogo {
+  margin: 5px;
+  padding: 5px;
+  font-weight: bold;
+  align: center;
+  text-align: center;
+  font-color: red;
 }

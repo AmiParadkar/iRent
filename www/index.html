@@ -21,31 +21,40 @@
 <head>
 <meta charset="utf-8" />
 <meta name="format-detection" content="telephone=no" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-<!--   <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />-->
+<!--  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/index.css" />
 <link rel="stylesheet" type="text/css" href="css/irent.css" />
-<link rel="stylesheet"
-	href="bower_components/bootstrap/bootstrap.min.css">
+<!--  <link rel="stylesheet"
+	href="bower_components/bootstrap/bootstrap.min.css">-->
+
 <script type="text/javascript"
 	src="bower_components/angular/angular.min.js"></script>
 <script type="text/javascript"
 	src="bower_components/angular-route/angular-route.min.js"></script>
-<!-- <script type="text/javascript" src="js/vendor/angular-local-storage.js"></script> -->
-<script type="text/javascript"
-	src="bower_components/bootstrap/bootstrap.min.js"></script>
+<!--  <script type="text/javascript"
+	src="bower_components/bootstrap/bootstrap.min.js"></script>-->
+	
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 <script type="text/javascript" src="js/app.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript" src="js/controllers/userCtrl.js"></script>
-
-<!--  <script type="text/javascript" src="js/controllers/prodCtrl.js"></script>-->
-
-<script type="text/javascript">
-            iRentApp.initialize();
-        </script>
 <title>Hello World Rent your tools</title>
+<script type="text/javascript">
+	iRentApp.initialize();
+</script>
 </head>
-<body data-ng-app="iRent">
+<body ng-app="iRent">
+	<header>
+		<div class="container">
+  			<div ng-include="'partials/nav.html'"></div>
+  		</div>
+	</header>
+	<div ng-view></div>
+
 </body>
 </html>
