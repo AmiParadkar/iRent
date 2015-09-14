@@ -4,7 +4,7 @@ angular.module('iRent.Controllers', [])
   //     $scope.headerText = eventBroadcastService.message.header;
   // });
 	//function Hello($scope, $http) {
-	    $http.get('http://Amis-MacBook-Air.local:8080/pix/user/Alice').
+	    $http.get('http://Amis-MacBook-Air.local:8080//user/Alice').
 	        success(function(data) {
 	        	console.log('data&&&&&&&', data)
 	            $scope.user = data;
@@ -13,7 +13,7 @@ angular.module('iRent.Controllers', [])
 	    
 }])
 .controller('prodCtrl', ['$scope', '$rootScope', '$http', function($scope, $rootScope, $http){
-    $http.get('http://Amis-MacBook-Air.local:8080/pix/product/Prod1').
+    $http.get('http://Amis-MacBook-Air.local:8080/iRentService/product/Prod1').
 	        success(function(data) {
 	        	console.log('prod Data -&', data)
 	            $scope.prod = data;
