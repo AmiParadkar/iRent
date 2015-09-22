@@ -1,3 +1,11 @@
+body {
+  padding-top: 50px;
+}
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 50px;
+  }
+}
 div .prod-list {
   margin: 5px;
   padding: 5px;
@@ -23,11 +31,18 @@ div .prod-list desc {
   width: 120px;
   margin: 5px;
 }
+.navbar-default .navbar-brand {
+  color: #e45560;
+  font-size: 20px;
+}
 .iRentLogo {
   margin: 5px;
   padding: 5px;
   font-weight: bold;
   align: center;
   text-align: center;
-  font-color: red;
+  font-color: #e45560;
+}
+.iRentLogo a:hover {
+  font-color: #e45560;
 }
