@@ -1,0 +1,33 @@
+<div class="container">
+	<h1>Product Details</h1>
+	<div class="row" ng-model="prod">
+		<div class="col-md-8">
+			<div class="panel panel-primary">
+
+				<div class="panel-heading">{{prod.prodName}}</div>
+				<div class="panel-body">
+					<img class="img-responsive" alt="{{prod.prodName}}"
+						src="{{serviceRoot}}{{prod.prodImagePath}}">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="panel panel-success">
+				<div class="panel-body">
+					<span class="boldTxt">{{prod.prodDesc}}</span>
+					<br>
+					<br>	
+					<span class="boldTxt">{{prod.prodPrice}}  USD</span>
+					<br>
+					<br>
+					<span class="">Only {{prod.prodQuantity}} available</span>
+					<br>
+					<br>
+				<div class="panel-footer">
+					<button type="button" class="btn btn-success btn-block">Add to Cart</button>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

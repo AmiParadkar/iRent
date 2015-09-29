@@ -5,7 +5,7 @@ angular.module('iRent', ['ngRoute', 'iRent.Controllers'])
       when('/', {
         //templateUrl: 'partials/login.html',
         //controller: 'userCtrl'
-    	  templateUrl: 'partials/product.html',
+    	  templateUrl: 'partials/productList.html',
           controller: 'prodCtrl'
       }).
       when('/register', {
@@ -13,13 +13,19 @@ angular.module('iRent', ['ngRoute', 'iRent.Controllers'])
         controller: 'userCtrl'
       }).
       when('/home', {
-        templateUrl: 'partials/home.html',
-        controller: 'userCtrl'
+        //templateUrl: 'partials/home.html',
+        //controller: 'userCtrl'
+    	  templateUrl: 'partials/productList.html',
+          controller: 'prodCtrl'
       }).
       when('/product', {
-          templateUrl: 'partials/product.html',
+          templateUrl: 'partials/productList.html',
           controller: 'prodCtrl'
         }).
+        when('/product/:prodId', {
+            templateUrl: 'partials/productDetail.html',
+            controller: 'prodDetailCtrl'
+          }).
       otherwise({
         redirectTo: '/'
       });

@@ -28,3 +28,16 @@ angular.module('iRent.Controllers', [])
 	        	console.log("prod size ="+response.length)
 	        })
 }])
+.controller('prodDetailCtrl', ['$scope', '$rootScope', '$http','$routeParams', function($scope, $rootScope, $http,$routeParams){
+	$scope.serviceRoot = iRentApp.serviceRoot+"/";
+	//alert("Inside detail ctrl")
+	var id = $routeParams.prodId;
+	alert(id);
+	$http.get(iRentApp.serviceRoot + '/iRentService/product/'+id).
+	        success(function(response) {
+	        	console.log(response)
+	        	//alert(response)
+	        	$scope.prod = response;
+	        	console.log("prod name ="+response.prodName)
+	        })
+}])
