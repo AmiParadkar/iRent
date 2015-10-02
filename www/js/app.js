@@ -10,8 +10,12 @@ angular.module('iRent', ['ngRoute', 'iRent.Controllers'])
       }).
       when('/register', {
         templateUrl: 'partials/register.html',
-        controller: 'userCtrl'
+        controller: 'userRegisterCtrl'
       }).
+      when('/signIn', {
+          templateUrl: 'partials/login.html',
+          controller: 'userLoginCtrl'
+        }).
       when('/home', {
         //templateUrl: 'partials/home.html',
         //controller: 'userCtrl'

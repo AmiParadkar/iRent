@@ -18,8 +18,8 @@
  */
 var iRentApp = {
 		
-	//serviceRoot: "http://Amis-MacBook-Air.local:8080",
-	serviceRoot: "http://irentservice.herokuapp.com/",
+	serviceRoot: "http://Amis-MacBook-Air.local:8080",
+	//serviceRoot: "http://irentservice.herokuapp.com/",
     // Application Constructor
     initialize: function() {
         this.bindEvents();

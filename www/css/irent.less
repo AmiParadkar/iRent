@@ -1,55 +1,90 @@
-body { padding-top: 70px; }
+body {
+	padding-top: 70px;
+}
+
 @media screen and (max-width: 768px) {
-    body { padding-top: 50px; }
-}
-div .prod-list{
-	margin: 5px;
-    padding: 5px;
-    //border: 1px solid #0000ff;
-    //height: auto;
-    //width: auto;
-    float: left;
-    align: center;
-    text-align: center;  
-   img { 
-   	display: inline;
-   	align: center;
-    margin: 5px;
-    height: 150px;
-    width: 150px;
-    border: 1px solid #ffffff;
-    border-radius: 25px;
-   }
-   a:hover img {
-    border:1px solid #0000ff;
+	body {
+		padding-top: 80px;
 	}
+}
+
+div .prod-list {
+	margin: 5px;
+	padding: 5px;
+	float: left;
+	align: center;
+	text-align: center;
+	img {
+		display: inline;
+		align: center;
+		margin: 5px;
+		height: 150px;
+		width: 150px;
+		border: 1px solid #ffffff;
+		border-radius: 25px;
+	}
+
+	a:hover img {
+		border: 1px solid #0000ff;
+	}
+
 	desc {
-    text-align: center;
-    font-weight: normal;
-    width: 120px;
-    margin: 5px;
+		text-align: center;
+		font-weight: normal;
+		width: 120px;
+		margin: 5px;
 	}
 }
-.navbar-default .navbar-brand{	
-		color:#e45560;
-		font-size:20px;
+
+.navbar-default .navbar-brand {
+	color: #e45560;
+	font-size: 20px;
+	a:hover {
+		font-color: #e45560;
+	}
+
+	a:focus , a:hover {
+		font-color: #e45560;
+	}
 }
-.iRentLogo{
-	margin: 5px;
-    padding: 5px;
+
+.iRentLogo {
 	font-weight: bold;
 	align: center;
-    text-align: center; 
-    font-color:#e45560;
-	
-	a:hover{
-		font-color:#e45560;
+	text-align: center;
+	font-color: #e45560;
+	a:hover {
+		font-color: #e45560;
+	}
+
+	a:focus , a:hover {
+		font-color: #e45560;
 	}
 }
-.panel-footer{
-	padding:0px;
+.panel-footer.noPadding {
+	padding: 0px;
 }
-.boldTxt{
-	font-size:20px;
+// Product Detail Page
+
+
+.panel-heading.prodDetail {
+	text-align: center;
 	font-weight: bold;
+	font-size: 15px;
+}
+
+.boldTxt {
+	font-size: 20px;
+	font-weight: bold;
+}
+// Login Page
+label.loginPage{
+	margin-left:20px;
+}
+.form-group.loginPage{
+	margin-top:10px;
+}
+.form-control.loginPage{
+	margin:10px;
+	width:90%;
 }
