@@ -1,5 +1,5 @@
 angular.module('iRent', ['ngRoute', 'iRent.Controllers'])
-.config(function($routeProvider) {
+.config(['$routeProvider',function($routeProvider) {
 	console.log('inside app.js');
     $routeProvider.
       when('/', {
@@ -29,7 +29,7 @@ angular.module('iRent', ['ngRoute', 'iRent.Controllers'])
       otherwise({
         redirectTo: '/'
       });
-})
+}])
 .run(['$rootScope', '$location', '$http', function ($rootScope, $location, $http) {
 
     // $rootScope.$on("$stateChangeStart", function(event, toState, toParams, fromState, fromParams){

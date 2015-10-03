@@ -1,5 +1,5 @@
 {
-  "name": "iRent",
+  "name": "I",
   "version": "0.0.0",
   "authors": [
     "emehta <mehta.ekta@gmail.com>"
@@ -15,7 +15,10 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.4.0",
-    "angular-route": "~1.4.0"
+    "angular": "1.4.1",
+    "angular-route": "1.4.1",
+    "lodash": "~3.10.1",
+    "moment": "~2.10.6",
+    "bootstrap": "~3.3.5"
   }
 }

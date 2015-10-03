@@ -1,26 +1,35 @@
 angular.module('iRent', ['ngRoute', 'iRent.Controllers'])
-.config(function($routeProvider) {
+.config(['$routeProvider',function($routeProvider) {
+	console.log('inside app.js');
     $routeProvider.
       when('/', {
-        templateUrl: 'partials/login.html',
-        controller: 'userCtrl'
+        //templateUrl: 'partials/login.html',
+        //controller: 'userCtrl'
+    	  templateUrl: 'partials/productList.html',
+          controller: 'prodCtrl'
       }).
       when('/register', {
         templateUrl: 'partials/register.html',
         controller: 'userCtrl'
       }).
       when('/home', {
-        templateUrl: 'partials/home.html',
-        controller: 'userCtrl'
+        //templateUrl: 'partials/home.html',
+        //controller: 'userCtrl'
+    	  templateUrl: 'partials/productList.html',
+          controller: 'prodCtrl'
       }).
       when('/product', {
-          templateUrl: 'partials/product.html',
+          templateUrl: 'partials/productList.html',
           controller: 'prodCtrl'
         }).
+        when('/product/:prodId', {
+            templateUrl: 'partials/productDetail.html',
+            controller: 'prodDetailCtrl'
+          }).
       otherwise({
         redirectTo: '/'
       });
-})
+}])
 .run(['$rootScope', '$location', '$http', function ($rootScope, $location, $http) {
 
     // $rootScope.$on("$stateChangeStart", function(event, toState, toParams, fromState, fromParams){
