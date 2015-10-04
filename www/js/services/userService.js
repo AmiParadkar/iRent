@@ -28,13 +28,7 @@
  
         function GetByUsername(username) {
         	console.log("url = "+userUrl+username)
-//             $http.get(userUrl + username).success(function (response) {
-//            		console.log(response)
-//            		alert(response.userName)
-//            		return response
-//            	});
-        	
-             return $http.get(userUrl + username)//.then(handleSuccess, handleError('Error getting user by username'));
+        	return $http.get(userUrl + username).then(handleSuccess, handleError('Error getting user by username'));
         }
  
         function Create(user) {
@@ -53,11 +47,13 @@
         // private functions
  
         function handleSuccess(res) {
+        	alert("Inside handleSuccess")
             return res.data;
         }
  
         function handleError(error) {
             return function () {
+            	alert("Inside handeError")
                 return { success: false, message: error };
             };
         }
