@@ -9,7 +9,7 @@ angular.module('iRent')
 	$http.get(iRentApp.serviceRoot + '/iRentService/product/all').
 	        success(function(response) {
 	        	console.log("=========="+iRentApp.serviceRoot + '/iRentService/product/all')
-	        	//console.log('prod Data -&', data)
+	        	console.log('prod Data -&', response)
 	            //$scope.prod = data;
 	        	$scope.prods = response;
 	        	console.log("prod size ="+response.length)
@@ -27,4 +27,5 @@ angular.module('iRent')
 	        	$scope.prod = response;
 	        	console.log("prod name ="+response.prodName)
 	        })
+	        
 }])

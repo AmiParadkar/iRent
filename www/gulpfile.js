@@ -1,7 +1,7 @@
 var gulp = require('gulp')
  ,sourcemaps = require('gulp-sourcemaps')
  ,concat = require('gulp-concat')
- ,jshint = require('gulp-jshint')
+ // ,jshint = require('gulp-jshint')
  ,uglify = require('gulp-uglify')
  ,minifyCSS = require('gulp-minify-css')
  ,plumber = require('gulp-plumber')
@@ -27,7 +27,7 @@ gulp.task('vendor.scripts', function() {
       ,'bower_components/moment/min/moment.min.js'
       ,'bower_components/lodash/lodash.min.js'
     ])
-    .pipe(jshint())
+    // .pipe(jshint())
     .pipe(concat('vendor.js'))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest(buildDir + '/js'));
@@ -41,7 +41,7 @@ gulp.task('app.scripts', function() {
     ,'js/controllers/*.js'
     ,'js/services/*.js'
     ])
-    .pipe(jshint())
+    // .pipe(jshint())
     .pipe(sourcemaps.init())
     .pipe(uglify().on('error', gutil.log))
     .pipe(concat('irent.js'))

@@ -39,6 +39,7 @@ gulp.task('app.scripts', function() {
     'js/index.js'
     ,'js/app.js'
     ,'js/controllers/*.js'
+    ,'js/services/*.js'
     ])
     .pipe(jshint())
     .pipe(sourcemaps.init())

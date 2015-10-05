@@ -3,7 +3,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   body {
-    padding-top: 50px;
+    padding-top: 80px;
   }
 }
 div .prod-list {
@@ -35,9 +35,14 @@ div .prod-list desc {
   color: #e45560;
   font-size: 20px;
 }
+.navbar-default .navbar-brand a:hover {
+  font-color: #e45560;
+}
+.navbar-default .navbar-brand a:focus,
+.navbar-default .navbar-brand a:hover {
+  font-color: #e45560;
+}
 .iRentLogo {
-  margin: 5px;
-  padding: 5px;
   font-weight: bold;
   align: center;
   text-align: center;
@@ -46,10 +51,29 @@ div .prod-list desc {
 .iRentLogo a:hover {
   font-color: #e45560;
 }
-.panel-footer {
+.iRentLogo a:focus,
+.iRentLogo a:hover {
+  font-color: #e45560;
+}
+.panel-footer.noPadding {
   padding: 0px;
+}
+.panel-heading.prodDetail {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
 }
 .boldTxt {
   font-size: 20px;
   font-weight: bold;
+}
+label.loginPage {
+  margin-left: 20px;
+}
+.form-group.loginPage {
+  margin-top: 10px;
+}
+.form-control.loginPage {
+  margin: 10px;
+  width: 90%;
 }
