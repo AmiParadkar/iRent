@@ -1,7 +1,7 @@
 //angular.module('iRent.Controllers', [])
 angular.module('iRent')
 .controller('prodCtrl', ['$scope', '$rootScope', '$http', function($scope, $rootScope, $http){
-	$scope.serviceRoot = iRentApp.serviceRoot+"/";
+	$scope.serviceRoot = iRentApp.serviceRoot;
     //$http.get(iRentApp.serviceRoot + '/iRentService/product/all').
 	//$http.get(iRentApp.serviceRoot + '/iRentService/product/Prod1').
 		//success(function(data) {
@@ -16,7 +16,7 @@ angular.module('iRent')
 	        })
 }])
 .controller('prodDetailCtrl', ['$scope', '$rootScope', '$http','$routeParams', function($scope, $rootScope, $http,$routeParams){
-	$scope.serviceRoot = iRentApp.serviceRoot+"/";
+	$scope.serviceRoot = iRentApp.serviceRoot;
 	//alert("Inside detail ctrl")
 	var id = $routeParams.prodId;
 	//alert(id);
