@@ -7,30 +7,34 @@ angular.module('iRent', ['ngRoute', 'iRent.Controllers'])
         //controller: 'userCtrl'
     	  templateUrl: 'partials/productList.html',
           controller: 'prodCtrl'
-      }).
-      when('/register', {
+      })
+      .when('/register', {
         templateUrl: 'partials/register.html',
         controller: 'userRegisterCtrl'
-      }).
-      when('/signIn', {
+      })
+      .when('/signIn', {
           templateUrl: 'partials/login.html',
           controller: 'userLoginCtrl'
-        }).
-      when('/home', {
+      })
+      .when('/home', {
         //templateUrl: 'partials/home.html',
         //controller: 'userCtrl'
     	  templateUrl: 'partials/productList.html',
           controller: 'prodCtrl'
-      }).
-      when('/product', {
+      })
+      .when('/product/add', {
+          templateUrl: 'partials/addProduct.html',
+          controller: 'prodCtrl'
+      })
+      .when('/product', {
           templateUrl: 'partials/productList.html',
           controller: 'prodCtrl'
-        }).
-        when('/product/:prodId', {
-            templateUrl: 'partials/productDetail.html',
-            controller: 'prodDetailCtrl'
-          }).
-      otherwise({
+      })
+      .when('/product/:prodId', {
+          templateUrl: 'partials/productDetail.html',
+          controller: 'prodDetailCtrl'
+      })
+      .otherwise({
         redirectTo: '/'
       });
 }])
